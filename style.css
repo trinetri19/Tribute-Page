@@ -118,30 +118,45 @@ img {
 
 /* media for very small size */
 
-@media(max-width: 575px) {
+
+@media (max-width:310px){
     .content1 {
-        height: 40vh;
+        height: 30vh;
     }
 
     .content2 {
         height: 30vh;
     }
-
+.textContent{
+    width:70%;
+}
     .textContent h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .textContent h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .content2{
-        height:40vh;
+        height:60vh;
     }
 
     .ImgBox {
         flex-direction: column;
     }
 
+    
+    .img1 {
+        height: 50%;
+        width: 90%;
+        margin-top: 0.5rem
+    }
+
+    .box {
+        height: 50%;
+        width: 100%;
+        padding: 0.2rem;
+    }
     .img1 {
         height: 50%;
         width: 90%;
@@ -170,12 +185,6 @@ img {
     .InCont3 {
         flex-direction: column;
     }
-
-    .InCont3 {
-        flex-direction: column;
-       
-    }
-
     .boxL {
         height: 50%;
         width: 100%;
@@ -189,11 +198,107 @@ img {
     }
     .InCont3 h3 {
         margin: 0.1rem;
+        font-size: 0.9rem;
+    }
+
+    .InCont3 p {
+        font-size: 0.37rem;
+    }
+}
+
+@media (min-width:310px) and (max-width: 575px) {
+    .content1 {
+        height: 30vh;
+    }
+
+    .content2 {
+        height: 30vh;
+    }
+
+    .textContent h1 {
+        font-size: 1.7rem;
+    }
+    .textContent{
+        width:70%;
+    }
+
+    .textContent h2 {
+        font-size: 1.3rem;
+    }
+    .content2{
+        height:60vh;
+    }
+
+    .ImgBox {
+        flex-direction: column;
+    }
+
+    
+    .img1 {
+        height: 50%;
+        width: 90%;
+        margin-top: 0.5rem
+    }
+
+    .box {
+        height: 50%;
+        width: 100%;
+        padding: 0.2rem;
+    }
+    .img1 {
+        height: 50%;
+        width: 90%;
+        margin-top: 0.7rem
+    }
+
+    .box {
+        height: 50%;
+        width: 100%;
+        color: aliceblue;
+        padding: 0.2rem;
+    }
+    .box h1 {
+        font-size: 1.2rem;
+        margin: 0rem;
+    }
+
+    .box p {
+        font-size: 0.6rem;
+    }
+
+    .content3 {
+        height:100vh;
+    }
+
+    .InCont3 {
+
+        flex-direction: column;
+        gap:2rem;
+    }
+
+     
+    
+
+    .boxL {
+        height: 48%;
+        width: 100%;
+        padding: 0.2rem;
+        margin-top:0.1rem;
+    }
+
+    .boxR {
+        height: 48%;
+        width: 100%;
+        padding: 0.2rem;
+        margin-top:0.1rem;
+    }
+    .InCont3 h3 {
+        margin: 0.1rem;
         font-size: 0.8rem;
     }
 
     .InCont3 p {
-        font-size: 0.49rem;
+        font-size: 0.5rem;
     }
 
 }
