@@ -118,129 +118,166 @@ img {
 
 /* media for very small size */
 
-@media(max-width:300px) {
+@media(max-width: 575px) {
     .content1 {
-        height: 20vh;
+        height: 40vh;
     }
 
     .content2 {
-        height: 20vh;
+        height: 30vh;
     }
 
     .textContent h1 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .textContent h2 {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+    }
+    .content2{
+        height:40vh;
     }
 
+    .ImgBox {
+        flex-direction: column;
+    }
+
+    .img1 {
+        height: 50%;
+        width: 90%;
+        margin-top: 0.7rem
+    }
+
+    .box {
+        height: 50%;
+        width: 100%;
+        color: aliceblue;
+        padding: 0.2rem;
+    }
     .box h1 {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        margin: 0rem;
     }
 
     .box p {
-        font-size: 0.2rem;
+        font-size: 0.55rem;
     }
 
     .content3 {
-        height: 20vh
+        height:70vh;
     }
-  .InCont3{
-    flex-direction: column;
-  }
+
+    .InCont3 {
+        flex-direction: column;
+    }
+
+    .InCont3 {
+        flex-direction: column;
+       
+    }
+
+    .boxL {
+        height: 50%;
+        width: 100%;
+        padding: 0.2rem;
+    }
+
+    .boxR {
+        height: 50%;
+        width: 100%;
+        padding: 0.2rem;
+    }
     .InCont3 h3 {
         margin: 0.1rem;
-        font-size: 0.3rem;
+        font-size: 0.8rem;
     }
 
     .InCont3 p {
-        font-size: 0.16rem;
+        font-size: 0.49rem;
     }
 
 }
 
 /* media for small size */
-@media (min-width:300px) and (max-width:600px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .content1 {
-        height: 30vh;
+        height: 40vh;
     }
 
     .textContent {
-        padding: 0.2rem;
+        padding: 0.4rem;
     }
 
     .textContent h1 {
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 
     .textContent h2 {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .content2 {
-        height: 50vh;
+        height: 60vh;
 
     }
-.ImgBox{
-   flex-direction: column;
-}
 
-.img1 {
-    height: 50%;
-    width: 90%;
-   margin:0.2rem
+    .ImgBox {
+        flex-direction: column;
+    }
 
-}
+    .img1 {
+        height: 50%;
+        width: 90%;
+        margin-top: 0.8rem
+    }
 
-.box {
-    height: 50%;
-    width: 100%;
-    color: aliceblue;
-    padding: 0.8rem;
-}
     .box {
+        height: 50%;
+        width: 100%;
         padding: 0.2rem;
     }
+
 
     .box h1 {
         font-size: 1.5rem;
     }
 
     .box p {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .content3 {
         height: 100vh
     }
 
-    .InCont3{
+    .InCont3 {
         flex-direction: column;
-      }
+    }
 
-      .boxL{
-        height: 50%;
-        width: 100%;
-        padding:0.2rem;
-      }
-      .boxR {
+    .boxL {
         height: 50%;
         width: 100%;
         padding: 0.2rem;
     }
+
+    .boxR {
+        height: 50%;
+        width: 100%;
+        padding: 0.2rem;
+    }
+
     .InCont3 h3 {
         margin: 0.3rem;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .InCont3 p {
-        font-size: 0.48rem;
+        font-size: 0.65rem;
     }
 }
 
 /* media for medium size */
-@media (min-width:600px) and (max-width:1100px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .content1 {
         height: 50vh;
     }
@@ -270,23 +307,49 @@ img {
     }
 
     .box p {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
     }
 
     .content3 {
-        height: 50vh
+        height: 59vh
     }
 
     .InCont3L h3 {
         margin: 0.3rem;
-        font-size: 1.2rem;
+        font-size: 1.34rem;
     }
 
     .InCont3 p {
-        font-size: 0.45rem;
+        font-size: 0.55rem;
     }
 }
-@media (min-width:1100px) and (max-width:1200px){
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content1{
+        height:60vh;
+    }
+
+    .textContent h1 {
+        font-size: 3.6rem;
+    }
+    
+    .textContent h2 {
+        font-size: 2.4rem;
+    }
+    .content2{
+        height:60vh;
+    }
+
+    .box h1 {
+        font-size: 3rem;
+    }
+
+    .box p {
+        font-size: 0.9rem;
+    }
+    .content3{
+        height:85vh;
+    }
     .InCont3L h3 {
         margin: 0.3rem;
         font-size: 2rem;
