@@ -146,7 +146,9 @@ img {
     .content3 {
         height: 20vh
     }
-
+  .InCont3{
+    flex-direction: column;
+  }
     .InCont3 h3 {
         margin: 0.1rem;
         font-size: 0.3rem;
@@ -177,32 +179,63 @@ img {
     }
 
     .content2 {
-        height: 30vh;
-    }
+        height: 50vh;
 
+    }
+.ImgBox{
+   flex-direction: column;
+}
+
+.img1 {
+    height: 50%;
+    width: 90%;
+   margin:0.2rem
+
+}
+
+.box {
+    height: 50%;
+    width: 100%;
+    color: aliceblue;
+    padding: 0.8rem;
+}
     .box {
-        padding: 0.5rem;
+        padding: 0.2rem;
     }
 
     .box h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .box p {
-        font-size: 0.345rem;
+        font-size: 0.5rem;
     }
 
     .content3 {
-        height: 30vh
+        height: 100vh
     }
 
+    .InCont3{
+        flex-direction: column;
+      }
+
+      .boxL{
+        height: 50%;
+        width: 100%;
+        padding:0.2rem;
+      }
+      .boxR {
+        height: 50%;
+        width: 100%;
+        padding: 0.2rem;
+    }
     .InCont3 h3 {
         margin: 0.3rem;
-        font-size: 0.56rem;
+        font-size: 0.7rem;
     }
 
     .InCont3 p {
-        font-size: 0.22rem;
+        font-size: 0.48rem;
     }
 }
 
